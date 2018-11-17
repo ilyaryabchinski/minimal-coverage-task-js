@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="pure-min.css"/>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="pure-g center-container">
+        <div class="pure-u-1-2">
+                <h1>Minimal coverage task</h1>
+                <form class="pure-form">
+                        <fieldset>
+                            <legend>Enter the data</legend>
+                            <div class="input-group">
+                                    <input type="text" placeholder="Columns">
+                                    <input type="text" placeholder="Rows">
+                                    <input type="text" placeholder="Probability">
+                            </div>
+                            
+                            <div class="pure-g center-container button-group">
+                                    <button id="generate-btn" type="button" class="pure-button pure-button-primary">Generate</button>
+                                    <button id="calculate-btn" type="button" class="pure-button pure-button-primary">Cover</button>
+                            </div>
+                            
+                        </fieldset>
+                    </form>
+                <div class="matrix-container"></div>
+        </div>
+        
+    </main>
+
+<script src="code.js"></script>
+</body>
+
+</html>

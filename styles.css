@@ -1,0 +1,36 @@
+.center-container {
+    justify-content: center;
+}
+
+
+.button-group {
+    margin: 10px 0;
+
+}
+
+.button-group button {
+    margin: 0 10px
+}
+
+.matrix-container {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    height: 100vh;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1280px) {
+    .input-group {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .input-group input {
+        margin-top: 5px;
+        flex-grow: 1;
+        width: 100%;
+    }
+}
